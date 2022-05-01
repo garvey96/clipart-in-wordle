@@ -1,0 +1,190 @@
+* {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #121213;
+}
+
+.game-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    text-align: center;
+    width: 510px;
+    border-bottom: solid 1px #3a3a3c;
+}
+
+.tile-container {
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+.key-container {
+    width: 510px;
+    display: flex;
+}
+
+.key-container button:hover{
+    cursor: pointer;
+}
+
+.key-container button {
+    width: 43px;
+    height: 58px;
+    border-radius: 4px;
+    border: none;
+    background-color: #818384;
+    margin: 4px;
+}
+
+.key-container button:nth-child(11) {
+    margin-left: 30px;
+}
+
+.key-container button:nth-child(20),
+.key-container button:nth-child(28) {
+    width: 68px;
+}
+
+.tile-container div {
+    display: flex;
+}
+
+.tile-container .tile {
+    width: 62px;
+    height: 62px;
+    border: 2px solid#3a3a3c;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.message-container {
+    height: 30px;
+}
+
+.message-container p {
+    background-color: #818384;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+}
+
+.tile.flip {
+    animation: 0.5s linear flipping;
+}
+
+@keyframes flipping {
+    0% {
+        transform: rotateX(0deg);
+    }
+    50% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+input{
+    border: none;
+    background: none;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+}
+
+.grey-overlay {
+    background-color: #3a3a3c !important;
+    border:none !important;
+}
+.yellow-overlay {
+    background-color: #b59f3a !important;
+    border:none !important;
+}
+
+.green-overlay {
+    background-color: #538d4e !important;
+    border:none !important;
+}
+
+#word-list button
+{
+    background: none;
+    border: none;
+}
+
+#word-list button :hover
+{
+    cursor: pointer;
+}
+
+#word-list
+{
+    overflow-y: overlay;
+    width: 100px;
+    float: left;
+    position: absolute;
+    margin-top: 10px;
+    height: 104%;
+}
+
+.word-container
+{
+    position: absolute;
+    top: 10px;
+    height: 90%;
+}
+
+.button-decrement
+{
+    visibility: hidden;
+    position: absolute;
+    transform: translate(0px, 30px);
+}
+
+.button-increment
+{
+    visibility: hidden;
+    position: absolute;
+    transform: translate(50px, 30px);
+}
+
+.button-icon-decrement
+{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: translate(-25%, -45%) scale(-1, 1);
+    fill: white;
+}
+
+.button-icon-increment
+{
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    transform: translate(-25%, -45%) scale(1, 1);
+    fill: white;
+}
+
+#word-list button{
+    display: block;
+}
+
+.wordIndex
+{
+    position: absolute;
+    transform: translate(-6px, 15px);
+}
