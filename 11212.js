@@ -1,0 +1,1 @@
+const row11212 = ['model', 'solar', 'cater', 'stair', 'manor', 'loser', 'stale', 'risen', 'mason', 'molar', 'beset', 'aider', 'poser', 'naive', 'until', 'plane', 'bonus', 'poesy', 'wider', 'easel', 'spree', 'polar', 'haste', 'widen', 'under', 'crane', 'moral', 'lucid', 'nosey', 'cobra', 'stone', 'miser', 'nasal', 'shore', 'wiser', 'inlet', 'tonal', 'basal', 'shave', 'unlit'];

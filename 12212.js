@@ -1,0 +1,1 @@
+const row12212 = ['bleed', 'prove', 'gorge', 'shire', 'pleat', 'glean', 'sedan', 'paste', 'gusto', 'creed', 'shoal', 'adorn', 'plate', 'drool', 'wider', 'deign', 'cider', 'faint', 'pedal', 'prude', 'pesto', 'haste', 'parse', 'under', 'taste', 'color', 'broke', 'petal', 'teach', 'baste', 'plead', 'cried', 'pasty', 'wiser'];
